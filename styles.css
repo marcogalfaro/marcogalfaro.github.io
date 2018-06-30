@@ -1,0 +1,80 @@
+.profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+
+.profile-image:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 2px white, 0 0 25px grey, 0 0 5px grey;
+}
+
+.jumbotron{
+    margin:15px 30px 0px 30px;
+    border-radius:10px;
+    background:linear-gradient(rgba(0, 0, 250, 0.25), rgba(125, 250, 250, 0.45)),
+    url(../img/mountains.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white !important;
+    height:500px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.image-style {
+    margin-top: 50px;
+    display: block;
+    width: 400px;
+    height: auto;
+    border-radius: 55px 75px;
+    transition: all .4s;
+}
+
+.image-style:hover {
+    transform: scale(1.0) rotate(360deg);
+}
+
+ul li {
+    margin: 10px;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
