@@ -8,7 +8,7 @@
 }
 
 .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.0) rotate(360deg);
 }
 
 .text-shadow {
